@@ -11,7 +11,7 @@ public class ShotSprite extends Sprite {
 	@Override
 	public void move() {
 		super.move();
-		if (y < -100) {
+		if (y < -600) {
 			game.removeSprite(this);
 		}
 	}
